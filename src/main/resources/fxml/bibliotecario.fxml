@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.femass.controller.BibliotecarioController">
+   <children>
+      <Label layoutX="85.0" layoutY="53.0" prefHeight="43.0" prefWidth="340.0" text="Bem Vindo, Bibliotecário">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button fx:id="btn_cadastrarUsuario" layoutX="85.0" layoutY="102.0" mnemonicParsing="false" onAction="#btn_cadastrarUsuario" prefHeight="43.0" prefWidth="147.0" text="Cadastrar Usuário" />
+      <Button fx:id="btn_devolverCopia" layoutX="278.0" layoutY="102.0" mnemonicParsing="false" onAction="#btn_devolverCopia" prefHeight="43.0" prefWidth="147.0" text="Devolver Cópia" />
+      <Button fx:id="btn_emprestarCopia" layoutX="278.0" layoutY="157.0" mnemonicParsing="false" onAction="#btn_emprestarCopia" prefHeight="43.0" prefWidth="147.0" text="Emprestar Cópia" />
+      <Button fx:id="btn_cadastrarLivro" layoutX="85.0" layoutY="157.0" mnemonicParsing="false" onAction="#btn_cadastrarLivro" prefHeight="43.0" prefWidth="147.0" text="Cadastrar Livro" />
+      <Button fx:id="btn_cadastrarAutor" layoutX="85.0" layoutY="211.0" mnemonicParsing="false" onAction="#btn_cadastrarAutor" prefHeight="43.0" prefWidth="147.0" text="Cadastrar Autor" />
+      <Button fx:id="btn_cadastrarGenero" layoutX="85.0" layoutY="263.0" mnemonicParsing="false" onAction="#btn_cadastrarGenero" prefHeight="43.0" prefWidth="147.0" text="Cadastrar Gênero" />
+   </children>
+</Pane>

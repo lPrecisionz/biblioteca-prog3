@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.femass.controller.LeitorController">
+   <children>
+      <Label layoutX="85.0" layoutY="53.0" prefHeight="43.0" prefWidth="340.0" text="Bem vindo, leitor">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <Button layoutX="85.0" layoutY="102.0" mnemonicParsing="false" onAction="#btn_consultarLivros" prefHeight="43.0" prefWidth="147.0" text="Consultar Livros" />
+   </children>
+</Pane>
